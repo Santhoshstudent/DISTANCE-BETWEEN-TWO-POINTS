@@ -12,16 +12,27 @@ Substitute the values in the distance formula  ![formula](/formula.JPG)
 ### PROGRAM:
 #Program to find the distance of the bridge from one point to another point
 #Developed by:Santhosh kumar B
+
 #Register no:212223230193
+
 import math
+
 def calculate_distance(point1, point2):
+
     x1, y1 = point1
+    
     x2, y2 = point2
+    
     distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    
     return distance
+    
 point1 = [4, 2]
+
 point2 = [10, 6]
+
 distance = calculate_distance(point1, point2)
+
 print(f"{distance:.2f}")
   
 
